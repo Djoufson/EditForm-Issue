@@ -1,0 +1,29 @@
+<EditForm Model="@Model" OnSubmit="HandleLogin" FormName="login-form">
+    <label>
+        Email
+        <InputText title="email" type="email" @bind-Value="@Model.Email" required placeholder="Enter your email"/>
+    </label>
+    <label>
+        Password
+        <InputText title="password" type="password" @bind-Value="@Model.Password" required placeholder="Enter your password"/>
+    </label>
+    <button type="submit">Login</button>
+</EditForm>
+
+@code{
+    [SupplyParameterFromForm]
+    private LoginModel Model { get; set; } = new();
+
+    private async Task HandleLogin()
+    {
+        Console.WriteLine("Loggin in ...");
+        await Task.Delay(1500);
+        Console.WriteLine("Logged in successfully");
+    }
+
+    class LoginModel
+    {
+        public string Email { get; set; } = string.Empty;
+        public string Password { get; set; } = string.Empty;
+    }
+}

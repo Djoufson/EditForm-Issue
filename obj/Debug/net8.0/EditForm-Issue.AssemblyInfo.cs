@@ -13,7 +13,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("EditForm-Issue")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+4c1efe46711160aee444c03e557baa4b06d31377")]
 [assembly: System.Reflection.AssemblyProductAttribute("EditForm-Issue")]
 [assembly: System.Reflection.AssemblyTitleAttribute("EditForm-Issue")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

@@ -1,3 +1,5 @@
+> ⚠️ This repository got archived because the issue was solved
+
 # EditForm Issue
 
 This repo simulates the scenario I encountered when developing my application with Blazor SSR.
